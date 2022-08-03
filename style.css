@@ -93,7 +93,7 @@ main{
 }
 
 .blog-box{
-  padding-top:50px;  
+  padding-top:50px;
 }
 
 .blog-item{
@@ -212,6 +212,7 @@ display:inline-block;
 .instagram-box:nth-child(6){
   background-image:url(img/road.jpg);
 }
+
 footer{
   width:100%;
   height:120px;
@@ -224,19 +225,20 @@ footer{
   color:#fff;
 }
 
-@media screen and (max-width:425px){
- 
+@media screen and (max-width:425px) {
+
  .header{
    width:100%;
- } 
- 
+ }
+
+.social{
+  display:none;
+}
+
  .navi-list{
    width:100%;
  }
- 
- .social{
-   display:block;
- }
+
  .navi-list-item{
    display:block;
  }
@@ -244,13 +246,87 @@ footer{
  .main-visual{
    width:100%;
  }
- 
+
  .main-visual-content{
    width:100%;
  }
- 
- .blog{
-   width:100%;
-   margin:;
- }
+
+main{
+  display: block;
+  width:100%;
+}
+
+.blog{
+  width:100%; 
+}
+
+.blog-heading{
+  padding:2px 0;
+}
+
+.blog-box{
+  width:100%;
+  box-sizing: border-box;
+}
+
+.blog-image{
+  margin-left:5px;
+  width:45%;
+}
+
+.blog-text{
+  width:45%;  
+}
+
+.blog-text-heading{
+  word-wrap:break-word
+}
+
+.category{
+  display: none;
+}
+
+.pagination{
+  width:100%;
+  padding-top:20px;
+  box-sizing: border-box;
+}
+
+.sidebar{
+  width:100%;
+}
+
+.popular-heading{
+  margin-top:30px;
+  width:100%;
+}
+
+.sidebar-contents{
+  margin-left: 10px;  
+}
+
+.instagram{
+  width:100%;
+}
+
+.instagram-heading{
+  width:100%;
+}
+
+.categories{
+  width:100%;
+}
+
+.categorise-heading{
+  width:100%;
+}
+
+.instagram-box{
+  width:40%;
+}
+
+fotter{
+  width:100%;
+}
+
 }
